@@ -1,0 +1,54 @@
+{
+
+"regular": [
+  {
+    "name": "Home",
+    "href": "home"
+  },
+  {
+    "name": "Contacts",
+    "href": "contact"
+  },
+  {
+    "name": "Transfer Info",
+    "href": "transfer"
+
+  },
+  {
+    "name": "Research Opportunities for Pre Health Students",
+    "href": "research"
+  },
+   {
+    "name": "Volunteering and Shadowing",
+    "href": "volunteer"
+  },
+
+  {
+  	"name": "Resources and Narratives",
+  	"href": "resource"
+  }
+
+
+  
+],
+
+
+"overflow": [
+
+    {
+  	"name": "Pathways",
+  	"href": "pathways"
+    },
+    {
+  	"name": "General Advice",
+  	"href": "advice"
+    },
+
+    {
+    "name": "Other Links",
+    "href": "other"
+    }
+  ]
+ 
+
+}

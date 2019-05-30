@@ -1,0 +1,21 @@
+{
+
+          "uw":  
+            {          
+              "header": "University of Washington Transfer Information",
+              "href": "uwtransfer.html"
+            },
+            
+          "wsu":
+           {         
+              "header": "Washington State University Transfer Information",
+              "href": "wsutransfer.html"
+            },
+
+          "cwu":
+            {      
+              "header": "Central Washington Transfer Information",
+              "href": "<cwu></cwu>transfer.html"
+            }
+
+}

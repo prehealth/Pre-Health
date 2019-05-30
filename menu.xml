@@ -1,0 +1,12 @@
+<?xml version="1.0">
+<navbar>
+	<link>
+		<name>Home</name>
+		<href>index</href>
+		<name>Home</name>
+		<href>contact</href>
+		<name>Home</name>
+		<href>research</href>
+	</link>
+</navbar>
+</xml>
