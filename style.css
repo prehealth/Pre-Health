@@ -1103,6 +1103,11 @@
 		section#pathways ul
 		{
 			list-style: none;
+			
+		}
+		
+		section#pathway ul li, section#pathway ul li a
+		{
 			font-size: 1.5em;
 		}
 
