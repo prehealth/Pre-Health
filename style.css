@@ -784,14 +784,14 @@
 		*
 		{
 			box-sizing: border-box;
-			font-size: .5em;
+			
 		}
 
 		body
 		{
 			margin: 0;
 			padding: 0;
-			font-size: 2em;
+			
 		}
 
 		section#home
@@ -979,7 +979,7 @@
 		nav ul.smallMenu li a
 		{
 			height: 20px;
-			font-size: 26pt;
+			font-size: 36pt;
 			line-height: 14pt;
 		}
 
