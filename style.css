@@ -1001,6 +1001,10 @@
 			height: 100vh;
 		}
 	
+		section#volunteer h1, section#volunteer h3
+		{
+			font-size: .5em;
+		}
 
 		section#volunteer div.volunteer-left
 		 {
