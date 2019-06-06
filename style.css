@@ -734,6 +734,7 @@
 	section#advice h4
 	{
 		outline: none;
+		cursor: pointer;
 	}
 
 
@@ -1108,10 +1109,7 @@
 			font-size: 1.4em;
 		}
 		
-		section#adivce h4
-		{
-			cursor: pointer;
-		}
+
 
 
 }
