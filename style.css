@@ -420,6 +420,11 @@
 		font-size: .8em;
 	}
 
+	.modal-body-section p, .modal-body-section a
+	{
+		font-size: .8em;
+}
+
 	.modal-body h2
 	{
 		font-size: 11pt;
