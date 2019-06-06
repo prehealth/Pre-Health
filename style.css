@@ -415,13 +415,12 @@
 		color: #000;
 		z-index: 999;
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
 		flex-flow: wrap;
 		font-size: .8em;
 	}
 
-	.modal-body-section p, .modal-body-section a
+	div.modal-body-section p, div.modal-body-section a
 	{
 		font-size: 12pt;
 	}
