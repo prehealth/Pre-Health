@@ -332,7 +332,7 @@
 		margin: 0 auto;
 	}
 
-	div.transfer-container h1, section#transfer .transfer-container p
+	div.transfer-container h1, section#transfer div.transfer-container p
 	{
 		color: #FFF
 	}
@@ -354,7 +354,7 @@
 	{
 		margin: 0 auto;
 		cursor: pointer;
-		height: 8em;
+		height: 5em;
 	}
 
 	#modal
@@ -417,7 +417,7 @@
 		display: flex;
 		justify-content: space-between;
 		flex-flow: wrap;
-		font-size: 1em;
+		font-size: .8em;
 	}
 
 	.modal-body h2
