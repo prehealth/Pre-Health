@@ -859,10 +859,6 @@
 			display: block;	
 		}
 
-		section#contact h1
-		{
-			font-size: 4em;
-		}
 
 		section#contact div.main-contact
 		{
@@ -983,11 +979,6 @@
 			font-size: 22pt;
 		}
 		
-		section#research h1
-		{
-			font-size: 2em;
-		}
-
 		section#volunteer 
 		{
 			width: 100%;
@@ -1003,7 +994,7 @@
 			height: 100vh;
 		}
 	
-		section#volunteer h1, section#volunteer h3
+		section#volunteer h3
 		{
 			font-size: 1em;
 		}
@@ -1059,10 +1050,6 @@
 			padding-top: 45px;
 		}
 
-		section#resource h1
-		{
-			font-size: 4em;
-		}
 
 		section#resource div.resource-container
 		{
