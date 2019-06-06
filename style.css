@@ -984,6 +984,13 @@
 		section#research
 		{
 			width: 100%;
+			height: auto;
+			font-size: 22pt;
+		}
+		
+		section#research h1
+		{
+			font-size: 1em;
 		}
 
 		section#volunteer 
@@ -1078,6 +1085,7 @@
 			height: 35vh;
 			margin: 25px 0;
 			display: block;
+			font-size: 1em;
 		}
 
 		section#pathways
@@ -1090,6 +1098,7 @@
 		section#pathways ul
 		{
 			list-style: none;
+			font-size: 1em;
 		}
 
 		::-webkit-scrollbar 
