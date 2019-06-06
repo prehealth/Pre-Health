@@ -416,14 +416,15 @@
 		z-index: 999;
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 		flex-flow: wrap;
 		font-size: .8em;
 	}
 
 	.modal-body-section p, .modal-body-section a
 	{
-		font-size: .8em;
-}
+		font-size: 15pt;
+	}
 
 	.modal-body h2
 	{
