@@ -1109,11 +1109,15 @@
 			font-size: 2rem;
 		}
 		
-		section#advice ul li, section#advice h4
+		section#advice ul li
 		{
 			font-size: 1.4em;
 		}
 		
+		section#advice h4
+		{
+			font-size: 28pt;
+		}
 
 
 
