@@ -415,6 +415,7 @@
 		color: #000;
 		z-index: 999;
 		display: flex;
+		justify-content: space-between;
 		align-items: center;
 		flex-flow: wrap;
 		font-size: .8em;
