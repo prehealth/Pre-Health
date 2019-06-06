@@ -71,11 +71,10 @@
 
 	ul#smallMenu li
 	{
-		height: 40px;
-		display: flex;
-		flex-direction: column;
-		margin: 0;
+		height: 85px;
+		margin: 32px auto;
 		padding: 8px 10px;
+		font-size: 3em;
 	}
 
 	div#overflowMenu
@@ -222,7 +221,6 @@
 		width: 100%;
 		height: 100vh;
 		margin: 0;
-		padding-top: 50px;
 
 
 	}
@@ -231,7 +229,7 @@
 	{
 		width: 40%;
 		height: 100vh;
-		background-image: url('img/ph-banner-left.png');
+		background-image: url('img/banner-left.png');
 		background-repeat: no-repeat;
 		background-size: cover;	
 		padding: 0;
@@ -254,10 +252,10 @@
 	{
 		
 		width: 60%;
-		height: 100%;
+		height: 100vh;
 		background-image: url('img/doctor-banner-image.png');
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 100%;
 		padding: 0;
 		margin: 0;
 		float: left;
@@ -307,8 +305,12 @@
 	div.main-contact
 	{
 		width: 100%;
-		height: 100vh;.
+		height: 100vh;
+	}
 
+	section#contact div.main-contact p
+	{
+		line-height: 1em;
 	}
 	
 
@@ -327,13 +329,13 @@
 
 	div.contact p
 	{
-		line-height: 6pt;
+		line-height: 1em;
 	}
 
 	section#transfer
 	{
 		width: 100%;
-		height: 100%;
+		height: 100vh;
 		background-color: #004d71;
 	}
 
@@ -342,14 +344,24 @@
 		width: 85%;
 		height: 100%;
 		margin: 0 auto;
-		
-
 	}
 
 	div.transfer-container h1, section#transfer .transfer-container p
 	{
 
 		color: #FFF
+	}
+
+	section#transfer h1
+	{
+		width: 100%;
+		display: block;
+		font-size: 4em;
+	}
+
+	section#transfer p
+	{
+		font-size: 2em;
 	}
 	
 	div.xfer-row
@@ -364,7 +376,7 @@
 	{
 		margin: 0 auto;
 		cursor: pointer;
-
+		height: 8em;
 	}
 
 	#modal
@@ -444,9 +456,6 @@
 		font-weight: bolder;
 		color: #AA0088;
 	}
-
-
-
 
 	section#transfer div.modal-overlay
 	{
@@ -570,25 +579,31 @@
 	section#resource
 	{
 		width: 100%;
-		
+		display: inline-block;
+		padding: 0;
+		margin: 0;
+
 	}
 
-	div.resource-container
+	section#resource div.resource-container
 	{
 		margin: 0 auto;
 		width: 80%;
 		height: 100%;
 		padding-top: 35px;
-		
+		display: block;
+
 	}
 
-	div.resource-left
+	section#resource div.resource-left
 	{
 		width: 50%;
-		float: left;
+		display: inline;
 		margin: 0;
 		padding: 25px;
 		height: 100vh;
+		float: left;
+		
 	}
 
 	div.resource-left a
@@ -597,17 +612,18 @@
 		padding: 15px;
 		color: #004d71;
 		font-size: 15pt;
-		height: 100vh;	
+		height: 100vh;
 	}
 
-	div.resource-right
+	section#resource div.resource-right
 	{
 		width: 50%;
-		float: left;
 		margin: 0;
 		padding: 25px;
 		text-align: center;
+		float: left;
 	}
+
 
 		div.resource-right a
 	{
@@ -616,6 +632,139 @@
 		color: #004d71;
 		font-size: 15pt;	
 	}
+
+	section#pathways
+	{
+		display: block;
+		width: 100%;
+		height: auto;
+		min-height: 100vh;
+		padding-top: 35px;
+		background-color: #004d71;
+
+	}
+
+	section#pathways div.pathways-container
+	{
+		width: 80%;
+		height: auto;
+		margin: 0 auto;
+		padding: 0px 35px;
+		display: block;
+	}
+
+	section#pathways h1
+	{
+		color: #fff;
+	}
+
+	section#pathways ul li
+	{
+		list-style-type: none;
+		display: block;
+		width: 100%;
+		margin: 5px;
+		border: 1px solid #004d71;
+		padding: 15px;
+
+	}
+
+	ul#myAccordion div.pathway-title
+	{
+		outline: none;
+		font-size: 22pt;
+		font-family: Gotham;
+		padding: 15px;
+		color: #004D71;
+		background-color: #ffffee;
+		border-radius: 15px;
+	}
+
+	ul#myAccordion img
+	{
+		width: 65px;
+		height: 55px;
+	}
+
+	ul#myAccordion span.pathway-info h4
+	{
+		font-size: 18pt;
+		position: relative;
+		left: -15px;
+	}
+
+	span.pathway-info, span.pathway-info p
+	{
+		color: #FFF;
+		width: 95%;
+		margin: 15px 0;
+		padding: 0;
+		font-size: 10pt;
+		position: relative;
+		left: 20px;
+	}
+
+	span.pathway-info a
+	{
+		color: #FFF;
+		text-decoration: none;
+	}
+
+	span.pathway-info a:hover
+	{
+		color: orange;
+	}
+
+	section#advice
+	{
+		width: 100%;
+		height: 100%;
+		min-height: 100vh;
+		padding-top: 35px;
+	}
+
+	section#advice div.advice-container
+	{
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	section#advice ul.advice-main
+	{
+		list-style: lower-alpha;
+		color: #004d71;
+	}
+	section#advice ul.advice-secondary
+	{
+		list-style-type: lower-roman;
+		color: green;
+	}
+
+	section#advice ol.advice-secondary-inner
+	{
+		color: red;
+	}
+	
+	section#advice ul
+	{
+		margin: 10px 0;
+
+	}
+
+	section#advice li
+	{
+		margin: 4px 0;
+		padding: 4px 0;
+	}
+
+	section#advice h4
+	{
+		outline: none;
+	}
+
+
+	
+
 
 	/* Begin media query section
 	------------------------------------------------
@@ -713,10 +862,15 @@
 			display: block;	
 		}
 
+		section#contact h1
+		{
+			font-size: 4em;
+		}
+
 		section#contact div.main-contact
 		{
-			height: 25%;
-			margin: 0 0 15px 0; 
+			height: 15vh;
+ 			display: block;
 			padding: 0;
 			width: 100%;
 			font-size: 2em;
@@ -724,10 +878,17 @@
 
 		section#contact div.contact
 		{
-			margin: 0;
+
 			width: 100%;
-			height: 18vh;
+			height: 15vh;
 			font-size: 2em;
+			display: block;
+
+		}
+
+		section#contact div.contact-right p
+		{
+			line-height: 18pt;
 		}
 
 		section#contact div.contact h4, div.main-contact h4
@@ -745,6 +906,7 @@
 		{
 			height: 10vh;
 			width: 100%;
+			margin-top: 4em;
 		}
 
 		section#transfer
@@ -838,16 +1000,18 @@
 		}
 	
 
-		section#volunteer  div.volunteer-left
+		section#volunteer div.volunteer-left
 		 {
 			min-width: 100%;
-			height: 100vh;
+			min-height: 30vh;
+			background-size: 100%;
+
 		}
 
 		section#volunteer div.volunteer-right
 		{
 			min-width: 100%;
-			height: 100vh;
+			height: 50vh;
 		}
 
 		section#volunteer div.volunteer-right blockquote
@@ -883,6 +1047,12 @@
 			width: 100%;
 			height: 100vh;
 			display: block;
+			padding-top: 45px;
+		}
+
+		section#resource h1
+		{
+			font-size: 4em;
 		}
 
 		section#resource div.resource-container
@@ -891,14 +1061,16 @@
 			height: 100vh;
 		}
 
-		section#resource div.resource-left, div.resource-right
+		section#resource div.resource-left, section#resource div.resource-right
 		{
 			width: 100%;
 			display: block;
 			padding: 0;
-			margin:0;
+			margin: 0;
 			text-align: center;
-			height: 100vh;
+			height: 35vh;
+			margin: 25px 0;
+			display: block;
 		}
 
 		section#pathways
@@ -906,6 +1078,11 @@
 			width: 100%;
 			height: 100vh;
 			display: block;
+		}
+
+		section#pathways ul
+		{
+			list-style: none;
 		}
 
 		::-webkit-scrollbar 
