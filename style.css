@@ -185,14 +185,10 @@
 		height: 100vh;
 	}
 
-
-
 	.text-center
 	{
 		text-align: center;
 	}
-
-
 
 	nav ul#navbarMenu li.active, nav ul#overflow li.active
 	{
@@ -212,7 +208,6 @@
 		margin: 0;
 		position: relative
 		top: 40px;
-
 	}
 
 	section#home .home-container
@@ -220,8 +215,6 @@
 		width: 100%;
 		height: 100vh;
 		margin: 0;
-
-
 	}
 
 	section#home div.banner-left
@@ -235,7 +228,6 @@
 		margin: 0;
 		float: left;
 		padding-top: 50px;
-
 	}
 
 	section#home div.favicon
@@ -244,12 +236,10 @@
 		top: 80%;
 		left: 50%;
 		transform: translateX(-10%);
-
 	}
 
 	section#home div.banner-right
 	{
-		
 		width: 60%;
 		height: 100vh;
 		background-image: url('img/doctor-banner-image.png');
@@ -259,13 +249,9 @@
 		margin: 0;
 		float: left;
 		padding-top: 50px;
-
 	}
 
-
-
 	div.home-container-background-image
-
 	{
 		display: none;
 	}
@@ -312,7 +298,6 @@
 		line-height: 1em;
 	}
 	
-
 	div.contact
 	{
 		width: 50%;
@@ -348,19 +333,12 @@
 
 	div.transfer-container h1, section#transfer .transfer-container p
 	{
-		
 		color: #FFF
-	}
-
-	section#transfer h1
-	{
-		width: 100%;
-		display: block;
 	}
 
 	section#transfer p
 	{
-		font-size: 2em;
+		font-size: 1.4em;
 	}
 	
 	div.xfer-row
@@ -412,7 +390,6 @@
 		font-size: 14pt;
 		font-weight: bold;
 		color: #004d71;
-	
 	}
 
 	.close-button
@@ -439,14 +416,7 @@
 		display: flex;
 		justify-content: space-between;
 		flex-flow: wrap;
-	}
-
-	.modal-body-section
-	{
-
-		margin: 10px 20px;
-		height: 200px;
-		max-width: 300px;
+		font-size: 1em;
 	}
 
 	.modal-body h2
@@ -665,7 +635,6 @@
 		margin: 5px;
 		border: 1px solid #004d71;
 		padding: 15px;
-
 	}
 
 	ul#myAccordion div.pathway-title
