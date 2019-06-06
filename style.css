@@ -734,8 +734,13 @@
 	section#advice h4
 	{
 		outline: none;
-		cursor: pointer;
+		
 	}
+	
+	sectoin#advice h4:hover
+	{
+		cursor: pointer;
+}
 
 
 	
