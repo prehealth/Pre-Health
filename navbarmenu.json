@@ -23,11 +23,10 @@
     "href": "volunteer"
   },
 
-  {
-  	"name": "Resources and Narratives",
-  	"href": "resource"
-  }
-
+    {
+    "name": "Pathways",
+    "href": "pathways"
+    }
 
   
 ],
@@ -35,10 +34,7 @@
 
 "overflow": [
 
-    {
-  	"name": "Pathways",
-  	"href": "pathways"
-    },
+
     {
   	"name": "General Advice",
   	"href": "advice"
