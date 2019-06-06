@@ -822,8 +822,6 @@
 			position: absolute;
 			top: 0;
 			left: 0;
-
-
 		}
 
 		section#home div.home-container-background-image
@@ -851,7 +849,6 @@
 			top: 70%;
 			left: 50%;
 			transform: translate(-50%, -50%);	
-
 		}
 
 		section#contact
@@ -883,7 +880,6 @@
 			height: 15vh;
 			font-size: 2em;
 			display: block;
-
 		}
 
 		section#contact div.contact-right p
@@ -943,7 +939,6 @@
 		nav
 		{
 			height: 100px;
-
 		}
 
 		a#overflowNav
@@ -1106,7 +1101,12 @@
 			
 		}
 		
-		section#pathway ul li, section#pathway ul li a
+		section#pathways ul li, section#pathways ul li a
+		{
+			font-size: 1.5em;
+		}
+		
+		section#advice
 		{
 			font-size: 1.5em;
 		}
