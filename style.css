@@ -414,17 +414,15 @@
 		margin: 0 auto;
 		color: #000;
 		z-index: 999;
-		display: flex;
-		flex-basis: 2;
-		justify-content: space-between;
-		align-items: center;
-		flex-flow: wrap;
 		font-size: .8em;
+		display: block;
 	}
 
 	div.modal-body-section
 	{
 		font-size: 12pt;
+		width: 50%;
+		float: left;
 	}
 
 	.modal-body h2
