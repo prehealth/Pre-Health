@@ -10,11 +10,6 @@
 		font-family: Lato;
 	}
 
-	h1, h2, h3
-	{
-		font-size: 1.4em;
-	}
-
 	.sticky
 	{
 		position: sticky;
@@ -346,14 +341,14 @@
 
 	section#transfer div.transfer-container
 	{
-		width: 85%;
+		width: 80%;
 		height: 100vh;
 		margin: 0 auto;
 	}
 
 	div.transfer-container h1, section#transfer .transfer-container p
 	{
-
+		
 		color: #FFF
 	}
 
@@ -361,7 +356,6 @@
 	{
 		width: 100%;
 		display: block;
-		font-size: 4em;
 	}
 
 	section#transfer p
