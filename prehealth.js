@@ -28,14 +28,16 @@
 						active : false,
 						collapsible : true,
 						event : 'click',
-						header : 'div'
+						header : 'div',
+						cursorStyle : 'pointer
 					});
 
 					$('div.advice-container').accordion({
 						active : false,
 						collapsible : true,
 						event : 'click',
-						header : 'h4'
+						header : 'h4',
+						cursorStyle : 'pointer'
 
 					});
 						
